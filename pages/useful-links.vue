@@ -1,3 +1,2 @@
 <template>
-  useful-links
 </template>
