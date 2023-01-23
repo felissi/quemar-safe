@@ -1,5 +1,13 @@
 @tailwind base;
 @layer base {
+    :root {
+        --primary: #13B28A;
+        --yellow: #F5DA52;
+        --quotes: #F0F0F0;
+        --darker: #11B188;
+        --inner-blue: #E9F7F6;
+        @apply selection:text-[#13B188]
+    }
     body {
         @apply bg-white text-gray-600 dark:bg-[#151515]  dark:text-[#CAC4D0];
         /* @apply bg-gray-100 text-gray-600 dark:bg-[#151515] dark:text-white; */
@@ -7,3 +15,4 @@
 }
 @tailwind components;
 @tailwind utilities;
+
