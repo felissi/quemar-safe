@@ -1,12 +1,17 @@
 <template>
   <Header />
-  <NuxtPage></NuxtPage>
+  <NuxtLoadingIndicator></NuxtLoadingIndicator>
+  <LazyNuxtPage />
   <Footer />
 </template>
 <script setup>
 import { useTagMeta, useHead } from '@unhead/vue'
 useHead({
-  title: 'Quemar'
+  title: 'Quemar',
+  link: {
+    rel: 'icon',
+    href: '/favicon.ico',
+  }
 })
 useTagMeta([{
   property: 'og:title',
