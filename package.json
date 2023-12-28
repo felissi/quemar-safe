@@ -26,7 +26,7 @@
     "jest": "29.3.1",
     "mitt": "^3.0.0",
     "nuxt": "3.0.0",
-    "pinia": "^2.0.27",
+    "pinia": "^2.1.7",
     "postcss": "^8.4.19",
     "prettier": "^2.8.0",
     "prettier-plugin-tailwindcss": "^0.2.0",
